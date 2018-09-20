@@ -67,7 +67,8 @@ function myFunction(){
 		needsTranslation = needsTranslation.replace(/z/g, "3578");
 		needsTranslation = needsTranslation.replace(/\s/g, "88");
 	}
-	alert(needsTranslation)
+	alert(needsTranslation);
+	console.log(needsTranslation);
 }
 
 
